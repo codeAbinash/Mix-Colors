@@ -1,6 +1,6 @@
 @font-face{
     font-family:GoogleMedium;
-    src:url("fonts/GoogleSans-Medium.ttf");
+    src:url("./GoogleSans-Medium.ttf");
   }
   *{
      margin:0; padding:0;
