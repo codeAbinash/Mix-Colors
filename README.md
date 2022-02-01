@@ -1,2 +1,2 @@
 # Mix Colors RGB HEX or CMYK
-## Open [Color Mixer](https://darkroseabinash.github.io/Mix-Colors/)
+## Open [Color Mixer](https://codeAbinash.github.io/Mix-Colors/)
