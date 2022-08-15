@@ -1,61 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script type="text/javascript" src="js/jQuery.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Colors</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id="header" >
-  <p>Mix Colors</p>
-</div>
 
-<div id="body" >
-  <div id="colorBox" ></div>
-  <p id="coloraCode" >Color Code : #404040</p>
-  
-  
-  <div id="CMYKdiv" >
-	<p class="colorName" id="cyan" >Cyan 50%</p>
-	<input type="range" min="0" max="100" value="50" id="cyanSlider" class="slider">
-	<p class="colorName" id="mazenta" >Mazenta 50%</p>
-	<input type="range" min="0" max="100" value="50" id="mazentaSlider" class="slider">
-	<p class="colorName" id="yellow" >Yellow 50%</p>
-	<input type="range" min="0" max="100" value="50" id="yellowSlider" class="slider">
-	<p class="colorName" id="black" >Black 50%</p>
-	<input type="range" min="0" max="100" value="50" id="blackSlider" class="slider">
-  </div>
-   
-   
-   <div id="RGBdiv" >
-   <p class="colorName" id="red" >Red: 100</p>
-   <input type="range" min="0" max="255" value="100" id="redSlider" class="slider">
-   <p class="colorName" id="green" >Green: 100</p>
-   <input type="range" min="0" max="255" value="100" id="greenSlider" class="slider">
-   <p class="colorName" id="blue" >Blue: 100</p>
-   <input type="range" min="0" max="255" value="100" id="blueSlider" class="slider">
-   <p class="colorName" id="alpha" >Alpha: 100% (disabled)</p>
-   <input type="range" min="0" max="100" value="100" id="alphaSlider" class="slider" disabled="disabled" >
+<head>
+   <script type="text/javascript" src="js/jQuery.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Colors</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div id="header">
+      <p>Mix Colors</p>
    </div>
-   
-   <div id="HEXdiv" >
-      <input type="text" value="#" >
-      <img src="color.png" >
+
+   <div id="body">
+      <div id="colorBox"></div>
+      <p id="coloraCode">Color Code : #404040</p>
+
+
+      <div id="CMYKdiv">
+         <p class="colorName" id="cyan">Cyan 50%</p>
+         <input type="range" min="0" max="100" value="50" id="cyanSlider" class="slider">
+         <p class="colorName" id="mazenta">Mazenta 50%</p>
+         <input type="range" min="0" max="100" value="50" id="mazentaSlider" class="slider">
+         <p class="colorName" id="yellow">Yellow 50%</p>
+         <input type="range" min="0" max="100" value="50" id="yellowSlider" class="slider">
+         <p class="colorName" id="black">Black 50%</p>
+         <input type="range" min="0" max="100" value="50" id="blackSlider" class="slider">
+      </div>
+
+
+      <div id="RGBdiv">
+         <p class="colorName" id="red">Red: 100</p>
+         <input type="range" min="0" max="255" value="100" id="redSlider" class="slider">
+         <p class="colorName" id="green">Green: 100</p>
+         <input type="range" min="0" max="255" value="100" id="greenSlider" class="slider">
+         <p class="colorName" id="blue">Blue: 100</p>
+         <input type="range" min="0" max="255" value="100" id="blueSlider" class="slider">
+         <p class="colorName" id="alpha">Alpha: 100% (disabled)</p>
+         <input type="range" min="0" max="100" value="100" id="alphaSlider" class="slider" disabled="disabled">
+      </div>
+
+      <div id="HEXdiv">
+         <input type="text" value="#">
+         <img src="color.png">
+      </div>
+
+      <div id="optionDiv">
+         <p id="RGB">RGB</p>
+         <p id="CMYK">CMYK</p>
+         <p id="HEX">HEX</p>
+      </div>
+      <div id="bottomDiv">
+         <p>By Abinash, on <a href="https://github.com/codeAbinash/Mix-Colors">GitHub</a></p>
+      </div>
    </div>
-   
-  <div id="optionDiv" >
-     <p id="RGB" >RGB</p>
-     <p id="CMYK" >CMYK</p>
-     <p id="HEX" >HEX</p>
-  </div>
-   <div id="bottomDiv" >
-      <p>From</p>
-      <h1>Dark Rose Software</h1>
-      <p>By Abinash Karmakar</p>the
-   </div>
-</div>
-<script src="src.js"></script>
+   <script src="src.js"></script>
 </body>
+
 </html>
